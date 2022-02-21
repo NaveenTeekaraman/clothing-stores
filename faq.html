@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<style>
+   
+
+#content {
+  color: white;
+   text-align: center;
+   font-size: 150%;
+   display: flex;
+   height: 2%;
+   justify-content: space-around;
+   flex-flow: row wrap;
+   align-items: stretch;
+ }
+ 
+ .box {
+   flex-grow: 1;
+   border: 6px solid rgba(0,0,0,.2);
+ }
+ 
+ 
+ a+a {
+  margin-left: 10px;
+}
+
+
+
+</style>
+
+
+
+
+
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <img src="/clothing store/logo1.png" height="2%" width="5%">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mob-navbar" aria-label="Toggle">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mob-navbar">
+            <ul class="navbar-nav mb-2 mb-lg-0 mx-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#" onClick="location.href='webmainpage.html'">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About Us</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Products</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#" onClick="location.href='product.html'">Mens</a></li>
+                        <li><a class="dropdown-item" href="#">Womens</a></li>
+                        <li><a class="dropdown-item" href="#">Childrens</a></li>
+                        <li><hr class="dropdown-divider" /></li>
+                        <li><a class="dropdown-item" href="#">Explore More</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                </li>
+            </ul>
+            <form class="d-flex">
+              <a class="btn btn-secondary" href="#" role="button" onClick="location.href='weblogin.html'">Login</a>
+              <a class="btn btn-secondary" href="#" role="button" onClick="location.href='webregister.html'">Register</a>
+
+            </form>
+        </div>
+    </div>
+</nav>
+
+<div class="accordion" id="accordionExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            <strong></strong> How will I detect fraudulent emails/calls seeking sensitive personal and confidential information?
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+         </strong> you receive an e-mail, a call from a person/association claiming to be from Myntra seeking sensitive confidential information like debit/credit card PIN, net-banking or mobile banking password, we request you to never provide such confidential and personal data. We at Myntra or our affiliate logistics partner never ask for such confidential and personal data. If you have already revealed such information, report it immediately to an appropriate law enforcement agency.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            <strong></strong>How do I cancel the order, I have placed?
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong></strong> Order can be canceled till the same is out for delivery. Note: This may not be applicable for certain logistics partner. You would see an option to cancel within 'My Orders' section under the main menu of your App/Website/M-site then select the item or order you want to cancel. In case you are unable to cancel the order from'My Orders' section, you can refuse it at the time of delivery and refund will be processed into the source account, if order amount was paid online
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            <strong></strong> How are orders placed on Myntra delivered to me?
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>This is the third item's accordion body.</strong> All orders placed on Myntra are dispatched through our own courier service - Myntra Logistics or through other courier partners such as Blue Dart, Delhivery Etc.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="headingfour">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+            <strong></strong> How can I get my order delivered faster?
+          </button>
+        </h2>
+        <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingfour" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Sorry, currently we do not have any service available to expedite the order delivery. In future, if we are offering such service and your area pincode is serviceable, you will receive a communication from our end.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingfive">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
+            <strong></strong> I just cancelled my order. When will I receive my refund?
+          </button>
+        </h2>
+        <div id="collapsefive" class="accordion-collapse collapse" aria-labelledby="headingfive" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+             If you had selected Cash on Delivery, there is no amount to be refunded because you haven't paid for your order. For payments made via Credit Card, Debit Card, Net Banking, or Wallet you will receive refund into the source account within 7-10 days from the time of order cancellation. If payment was made by redeeming PhonePe wallet balance then, then refund will be instant post order cancellation, which can be later transferred into your bank account, by contacting PhonePe customer support team.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingsix">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsesix" aria-expanded="false" aria-controls="collapsesix">
+            <strong></strong>How do I return multiple products from a single order?
+          </button>
+        </h2>
+        <div id="collapsesix" class="accordion-collapse collapse" aria-labelledby="headingsix" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            If you are returning multiple products from a single order then, you will receive a separate Return ID via e-mail for each item. If you are self-shipping the products, you can ship all the products in a single shipment. Please mention the Return IDs for all the products on a single sheet of paper and place it inside the packet.If mode of return is Pickup, our courier person will pickup the products from the pickup address.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingseven">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseseven" aria-expanded="false" aria-controls="collapseseven">
+            <strong></strong> Do I need to provide email to create an account on Myntra?
+          </button>
+        </h2>
+        <div id="collapseseven" class="accordion-collapse collapse" aria-labelledby="headingseven" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Providing an email is not mandatory to create an account on Myntra. However, we still recommend adding your email to your account as it will allow you to easily reset your password if you need to.
+          </div>
+        </div>
+      </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingeight">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseeight" aria-expanded="false" aria-controls="collapseeight">
+        <strong></strong>What is Try and Buy Service?
+      </button>
+    </h2>
+    <div id="collapseeight" class="accordion-collapse collapse" aria-labelledby="headingeight" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        This service entitles you to try-out your purchases at the time of delivery, pay only for what you like and return the rest on-the-spot. Try and Buy service is a paid service, available on most of the products and in 31 Cities, you can enter pin code on product page to check service availability. Try and Buy is only available on orders containing &lt;=3 items in cart. To avail this service min. order value should be Rs.1199 and above. To avail the service, please ensure that you tick the 'Try and Buy' box on check-out page and choose delivery address where you are comfortable trying product. Terms of service may differ for a new customer.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingnine">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsenine" aria-expanded="false" aria-controls="collapsenine">
+        <strong></strong>How will refund of Try and Buy orders be processed?
+      </button>
+    </h2>
+    <div id="collapsenine" class="accordion-collapse collapse" aria-labelledby="headingnine" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+      Refund will be processed, once product reaches Warehouse, a message will be sent immediately to your registered contact number and money will reflect within 7-10 days in the source account. However, Try and Buy charges (if any) is non-refundable.
+      </div>
+    </div>
+  </div><div class="accordion-item">
+    <h2 class="accordion-header" id="headingten">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseten" aria-expanded="false" aria-controls="collapseten">
+        <strong></strong>How do I return multiple products from a single order?
+      </button>
+    </h2>
+    <div id="collapseten" class="accordion-collapse collapse" aria-labelledby="headingten" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        If you are returning multiple products from a single order then, you will receive a separate Return ID via e-mail for each item. If you are self-shipping the products, you can ship all the products in a single shipment. Please mention the Return IDs for all the products on a single sheet of paper and place it inside the packet.If mode of return is Pickup, our courier person will pickup the products from the pickup address.
+      </div>
+    </div>
+  </div><div class="accordion-item">
+    <h2 class="accordion-header" id="heading123">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse123" aria-expanded="false" aria-controls="collapse123">
+        <strong></strong>Why am I asked for my credit card details to access my account?
+      </button>
+    </h2>
+    <div id="collapse123" class="accordion-collapse collapse" aria-labelledby="heading123" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        In case you do not have your mobile number with you anymore, Myntra can use a saved credit/debit card detail from your account, to match for expiry date and give you the option to change your password and update your new mobile number in your account. There is no charge made to the card in this process. Alternatively, you can log in to your account with password if you remember it and change the login mobile number from your profile.
+      </div>
+    </div>
+  </div><div class="accordion-item">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        <strong></strong>Does Myntra read my SMSes?
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        Myntra can only read OTP SMSes that are sent by Myntra. This is in accordance with guidelines provided by Google and Apple in line with user privacy policies.
+      </div>
+    </div>
+  </div>
+
+
+      
+      <footer class="bg-dark text-center text-white">
+        <!-- Grid container -->
+        <div class="container p-4">
+          <!-- Section: Social media -->
+          <section class="mb-4">
+            <!-- Facebook -->
+           
+      
+          <!-- Section: Links -->
+          <section class="">
+            <!--Grid row-->
+            <div class="row">
+              <!--Grid column-->
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase">About</h5>
+      
+                <ul class="list-unstyled mb-0" >
+                  <li >
+                    <a href="#!" class="text-white" >Services</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white">Portfolio</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white">Pricing</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white">Customers</a>
+                  </li>
+                </ul>
+              </div>
+              <!--Grid column-->
+      
+              <!--Grid column-->
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase">Resources</h5>
+      
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a href="#!" class="text-white">Docs</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white">Blogs</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white">E-books</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white">Webinar</a>
+                  </li>
+                </ul>
+              </div>
+              <!--Grid column-->
+      
+              <!--Grid column-->
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase">Contact</h5>
+      
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a href="#!" class="text-white">Help</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white">Sales</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white">Advertise</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white">Mail us</a>
+                  </li>
+                </ul>
+              </div>
+              <!--Grid column-->
+      
+              <!--Grid column-->
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase">Connect</h5>
+      
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a href="#!" class="text-white">Facebook</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white">Instagram</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white">twitter</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white">LinkedIn</a>
+                  </li>
+                </ul>
+              </div>
+              <!--Grid column-->
+            </div>
+            <!--Grid row-->
+          </section>
+          <!-- Section: Links -->
+        </div>
+        <!-- Grid container -->
+      
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2020 Copyright:
+          <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+     
+      
+      <div id="content">
+        <div class="box" style="background-color:red;"><b>Google</b></div>
+        <div class="box" style="background-color:rgb(20, 218, 20);">Whatsapp</div>
+        <div class="box" style="background-color:rgb(29 161 242);">twitter</div>
+        <div class="box" style="background-color:rgb(66 103 178);">facebook</div>
+        <div class="box" style="background-color:rgb(225,48,108);">Instagram</div>
+        
+      </div>
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+
+
+</body>
+</html>

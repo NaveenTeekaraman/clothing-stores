@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>How To Create Bootstrap 5 Header With Login Form Design</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://www.markuptag.com/bootstrap/5/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+    
+</head>
+<style>
+
+
+
+
+  a+a {
+    margin-left: 10px;
+  }
+  
+  .divider:after,
+  .divider:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #eee;
+  }
+ 
+  
+  #content {
+   color: white;
+    text-align: center;
+    font-size: 30px;
+    display: flex;
+    height: 60%;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    align-items: stretch;
+  }
+  
+  .box {
+    flex-grow: 1;
+    border: 3% solid rgba(0,0,0,.2);
+  }
+  
+  
+  h3 span {
+  
+    background: rgb(182, 2, 2);
+  }
+  .card{
+ 
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+ 
+  cursor: pointer;
+}
+.card{
+  margin-bottom: 10%;
+}
+.card:hover{
+     transform: scale(1.05);
+ 
+}
+
+html,body
+{
+   
+    overflow-x: hidden; 
+}
+ 
+a{
+  text-decoration: none;
+}
+</style>
+<body>
+
+ <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <img src="/clothing store/logo1.png" height="2%" width="5%">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mob-navbar" aria-label="Toggle">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mob-navbar">
+                <ul class="navbar-nav mb-2 mb-lg-0 mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"   onClick="location.href='webmainpage.html'">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="true">Products</a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#"  onClick="location.href='product.html'">Mens</a></li>
+                          <li><a class="dropdown-item" href="#">Womens</a></li>
+                          <li><a class="dropdown-item" href="#">Childrens</a></li>
+                          <li><hr class="dropdown-divider" /></li>
+                          <li><a class="dropdown-item" href="#">Explore More</a></li>
+                      </ul>
+                  </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                  <a class="btn btn-secondary" href="#" role="button" onClick="location.href='weblogin.html'">Login</a>
+                  <a class="btn btn-secondary" href="#" role="button" onClick="location.href='webregister.html'">Register</a>
+
+                </form>
+            </div>
+        </div>
+    </nav><br><br>
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="container">
+        <div class="row row-cols-1 row-cols-sm-1 row-cols-md-3">
+          
+           <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="/image_gallery/mens/shirt1.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Formal red shirt</h5>
+                  <p class="card-text"> <span style="font-size: large; color:green "><del> &nbsp;₹5000 </del> &nbsp; ₹2500 <span></span>
+                    <span style="font-size: large; color:blue">50% Offer</span></p>
+             <button type="button" class="btn btn-success"><i class="bi bi-cart-check "></i> Add to cart</button>
+                 <button type="button" class="btn btn-success "style= "background-color: rgba(245, 51, 171, 0.849);"><i class="bi bi-heart"></i> Wishlist</button>
+                </div>
+              </div>
+           </div>
+           <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="/image_gallery/mens/shirt2.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Formal red shirt</h5>
+                  <p class="card-text"> <span style="font-size: large; color:green "><del> &nbsp;₹5000 </del> &nbsp; ₹2500 <span></span>
+                    <span style="font-size: large; color:blue">50% Offer</span></p>
+                   <button type="button" class="btn btn-success"><i class="bi bi-cart-check "></i> Add to cart</button>
+                      <button type="button" class="btn btn-success "style= "background-color: rgba(245, 51, 171, 0.849);"><i class="bi bi-heart"></i> Wishlist</button>
+                  
+                </div>
+              </div>
+           </div>
+           <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="/image_gallery/mens/shirt3.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Formal red shirt</h5>
+                  <p class="card-text"> <span style="font-size: large; color:green "><del> &nbsp;₹5000 </del> &nbsp; ₹2500 <span></span>
+                    <span style="font-size: large; color:blue">50% Offer</span></p>
+                    <button type="button" class="btn btn-success"><i class="bi bi-cart-check "></i> Add to cart</button>
+                      <button type="button" class="btn btn-success "style= "background-color: rgba(245, 51, 171, 0.849);"><i class="bi bi-heart"></i> Wishlist</button>
+                   
+                </div>
+              </div>
+           </div>
+        
+           <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="/image_gallery/mens/T-shirt1.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Formal red shirt</h5>
+                  <p class="card-text"> <span style="font-size: large; color:green "><del> &nbsp;₹5000 </del> &nbsp; ₹2500 <span></span>
+                    <span style="font-size: large; color:blue">50% Offer</span></p>
+                    <button type="button" class="btn btn-success"><i class="bi bi-cart-check "></i> Add to cart</button>
+                      <button type="button" class="btn btn-success "style= "background-color: rgba(245, 51, 171, 0.849);"><i class="bi bi-heart"></i> Wishlist</button>
+                    
+                </div>
+              </div>
+           </div>
+           <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="/image_gallery/mens/T-shirt2.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Formal red shirt</h5>
+                  <p class="card-text"> <span style="font-size: large; color:green "><del> &nbsp;₹5000 </del> &nbsp; ₹2500 <span></span>
+                    <span style="font-size: large; color:blue">50% Offer</span></p>
+                      <button type="button" class="btn btn-success"><i class="bi bi-cart-check "></i> Add to cart</button>
+                      <button type="button" class="btn btn-success "style= "background-color: rgba(245, 51, 171, 0.849);"><i class="bi bi-heart"></i> Wishlist</button>
+                     
+                </div>
+              </div>
+           </div>
+           <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="/image_gallery/mens/T-shirt3.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Formal red shirt</h5>
+                  <p class="card-text"> <span style="font-size: large; color:green "><del> &nbsp;₹5000 </del> &nbsp; ₹2500 <span></span>
+                    <span style="font-size: large; color:blue">50% Offer</span></p>
+                    <button type="button" class="btn btn-success"><i class="bi bi-cart-check "></i> Add to cart</button>
+                      <button type="button" class="btn btn-success "style= "background-color: rgba(245, 51, 171, 0.849);"><i class="bi bi-heart"></i> Wishlist</button>
+                    
+                </div>
+              </div>
+           </div>
+           <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="/image_gallery/mens/jean1.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Formal red shirt</h5>
+                  <p class="card-text"> <span style="font-size: large; color:green "><del> &nbsp;₹5000 </del> &nbsp; ₹2500 <span></span>
+                    <span style="font-size: large; color:blue">50% Offer</span></p>
+                     <button type="button" class="btn btn-success"><i class="bi bi-cart-check "></i> Add to cart</button>
+                      <button type="button" class="btn btn-success "style= "background-color: rgba(245, 51, 171, 0.849);"><i class="bi bi-heart"></i> Wishlist</button>
+                  
+                </div>
+              </div>
+           </div>
+           <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="/image_gallery/mens/jeans2.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Formal red shirt</h5>
+                  <p class="card-text"> <span style="font-size: large; color:green "><del> &nbsp;₹5000 </del> &nbsp; ₹2500 <span></span>
+                    <span style="font-size: large; color:blue">50% Offer</span></p>
+                  <button type="button" class="btn btn-success"><i class="bi bi-cart-check "></i> Add to cart</button>
+                      <button type="button" class="btn btn-success "style= "background-color: rgba(245, 51, 171, 0.849);"><i class="bi bi-heart"></i> Wishlist</button>
+                    
+                </div>
+              </div>
+           </div>
+           <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="/image_gallery/mens/jeans3.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Formal red shirt</h5>
+                  <p class="card-text"> <span style="font-size: large; color:green "><del> &nbsp;₹5000 </del> &nbsp; ₹2500 <span></span>
+                    <span style="font-size: large; color:blue">50% Offer</span></p>
+                    <button type="button" class="btn btn-success"><i class="bi bi-cart-check "></i> Add to cart</button>
+                      <button type="button" class="btn btn-success "style= "background-color: rgba(245, 51, 171, 0.849);"><i class="bi bi-heart"></i> Wishlist</button>
+                     
+                </div>
+              </div>
+           </div>
+        </div>
+      </div>
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Footer -->
+    <footer class="bg-dark text-center text-white">
+      <!-- Grid container -->
+      <div class="container p-4">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+          <!-- Facebook -->
+         
+    
+        <!-- Section: Links -->
+        <section class="">
+          <!--Grid row-->
+          <div class="row">
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Links</h5>
+    
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-white">Link 1</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Link 2</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Link 3</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Link 4</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+    
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Links</h5>
+    
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-white">Link 1</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Link 2</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Link 3</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Link 4</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+    
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Links</h5>
+    
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-white">Link 1</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Link 2</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Link 3</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Link 4</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+    
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Links</h5>
+    
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-white">Link 1</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Link 2</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Link 3</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Link 4</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </section>
+        <!-- Section: Links -->
+      </div>
+      <!-- Grid container -->
+    
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2020 Copyright:
+        <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+
+
+
+  <div id="content">
+    <div class="box" style="background-color:red;"><b>Google</b></div>
+    <div class="box" style="background-color:rgb(20, 218, 20);">Whatsapp</div>
+    <div class="box" style="background-color:rgb(29 161 242);">twitter</div>
+    <div class="box" style="background-color:rgb(66 103 178);">facebook</div>
+    <div class="box" style="background-color:rgb(225,48,108);">Instagram</div>
+    
+  </div>
+
+
+
+
+
+
+
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://www.markuptag.com/bootstrap/5/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<style>
+    .divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
+.h-custom {
+  height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+  .h-custom {
+    height: 100%;
+  }
+}
+
+#content {
+  color: white;
+   text-align: center;
+   font-size: 150%;
+   display: flex;
+   height: 2%;
+   justify-content: space-around;
+   flex-flow: row wrap;
+   align-items: stretch;
+ }
+ 
+ .box {
+   flex-grow: 1;
+   border: 6px solid rgba(0,0,0,.2);
+ }
+ 
+ 
+ a+a {
+  margin-left: 10px;
+}
+
+
+
+</style>
+
+
+
+
+
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <img src="/clothing store/logo1.png" height="2%" width="5%">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mob-navbar" aria-label="Toggle">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mob-navbar">
+            <ul class="navbar-nav mb-2 mb-lg-0 mx-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#" onClick="location.href='webmainpage.html'">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About Us</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Products</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#" onClick="location.href='product.html'">Mens</a></li>
+                        <li><a class="dropdown-item" href="#">Womens</a></li>
+                        <li><a class="dropdown-item" href="#">Childrens</a></li>
+                        <li><hr class="dropdown-divider" /></li>
+                        <li><a class="dropdown-item" href="#">Explore More</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                </li>
+            </ul>
+            <form class="d-flex">
+              <a class="btn btn-secondary" href="#" role="button" onClick="location.href='weblogin.html'">Login</a>
+              <a class="btn btn-secondary" href="#" role="button" onClick="location.href='webregister.html'">Register</a>
+
+            </form>
+        </div>
+    </div>
+</nav>
+
+
+
+</div>
+    </div>
+  
+
+    
+    <section class="vh-100">
+      <div class="container-fluid h-custom">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+          <div class="col-md-9 col-lg-6 col-xl-5">
+            <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.webp" class="img-fluid"
+              alt="Sample image">
+          </div>
+          <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
+            <form>
+              <div class="d-flex flex-row align-items-center justify-content-center justify-content-lg-start"><br>
+                <h2 class=" justify-content-center">LOGIN HERE</H2>
+               
+              </div>
+    
+              
+    
+              <!-- Email input -->
+              <div class="form-outline mb-4">
+                <input type="email" id="form3Example3" class="form-control form-control-lg"
+                  placeholder="Enter a valid email address" />
+                <label class="form-label" for="form3Example3">Email address</label>
+              </div>
+    
+              <!-- Password input -->
+              <div class="form-outline mb-3">
+                <input type="password" id="form3Example4" class="form-control form-control-lg"
+                  placeholder="Enter password" />
+                <label class="form-label" for="form3Example4">Password</label>
+              </div>
+    
+              <div class="d-flex justify-content-between align-items-center">
+                <!-- Checkbox -->
+                <div class="form-check mb-0">
+                  <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3"/>
+                  <label class="form-check-label" for="form2Example3">
+                    Remember me
+                  </label>
+                </div>
+                <a href="#!" class="text-body">Forgot password?</a>
+              </div>
+    
+              <div class="text-center text-lg-start mt-4 pt-2">
+                <button type="button" class="btn btn-secondary btn-lg"
+                  style="padding-left: 2.5rem; padding-right: 2.5rem;">Login</button>
+
+                  
+                <p class="small fw-bold mt-2 pt-1 mb-0">Don't have an account? <a href="#!"
+                    class="link-danger" onClick="location.href='webregister.html'">Register</a></p>
+              </div>
+             
+            </form>
+          </div>
+        </div>
+      </div>
+      
+
+     >
+      <!-- Footer -->  
+      
+      <footer class="bg-dark text-center text-white">
+        <!-- Grid container -->
+        <div class="container p-4">
+          <!-- Section: Social media -->
+          <section class="mb-4">
+            <!-- Facebook -->
+           
+      
+          <!-- Section: Links -->
+          <section class="">
+            <!--Grid row-->
+            <div class="row">
+              <!--Grid column-->
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase">About</h5>
+      
+                <ul class="list-unstyled mb-0" >
+                  <li >
+                    <a href="#!" class="text-white" >Services</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white">Portfolio</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white">Pricing</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white">Customers</a>
+                  </li>
+                </ul>
+              </div>
+              <!--Grid column-->
+      
+              <!--Grid column-->
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase">Resources</h5>
+      
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a href="#!" class="text-white">Docs</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white">Blogs</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white">E-books</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white">Webinar</a>
+                  </li>
+                </ul>
+              </div>
+              <!--Grid column-->
+      
+              <!--Grid column-->
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase">Contact</h5>
+      
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a href="#!" class="text-white">Help</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white">Sales</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white">Advertise</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white">Mail us</a>
+                  </li>
+                </ul>
+              </div>
+              <!--Grid column-->
+      
+              <!--Grid column-->
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase">Connect</h5>
+      
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a href="#!" class="text-white">Facebook</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white">Instagram</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white">twitter</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white">LinkedIn</a>
+                  </li>
+                </ul>
+              </div>
+              <!--Grid column-->
+            </div>
+            <!--Grid row-->
+          </section>
+          <!-- Section: Links -->
+        </div>
+        <!-- Grid container -->
+      
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2020 Copyright:
+          <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+      <!-- Footer -->
+      
+      
+      
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <div id="content">
+        <div class="box" style="background-color:red;"><b>Google</b></div>
+        <div class="box" style="background-color:rgb(20, 218, 20);">Whatsapp</div>
+        <div class="box" style="background-color:rgb(29 161 242);">twitter</div>
+        <div class="box" style="background-color:rgb(66 103 178);">facebook</div>
+        <div class="box" style="background-color:rgb(225,48,108);">Instagram</div>
+        
+      </div>
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+
+
+</body>
+</html>
